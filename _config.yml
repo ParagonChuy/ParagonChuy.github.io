@@ -1,0 +1,21 @@
+# Site settings
+title: Full Stack Adventures
+header-img: img/home-bg.png
+email: chuyspc@gmail.com
+copyright_name: ParagonChuy
+description: > # this means to ignore newlines until "baseurl:"
+  Life of a Full Stack Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: ParagonChuy
+github_username:  ParagonChuy
+learn_profile: ParagonChuy
+email_username: chuyspc@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
